@@ -13,7 +13,7 @@
             padding: 0 15px;
             color: #333;
         }
-        h1, h2, h3 {
+        h1, h2, h3, h4 {
             line-height: 1.2;
         }
         h1 {
@@ -24,6 +24,10 @@
             border-bottom: 1px solid #eee;
             padding-bottom: 5px;
             margin-top: 30px;
+        }
+        h4 {
+            margin-top: 20px;
+            color: #555;
         }
         /* Highlight the new critical section */
         .deletion-section {
@@ -57,19 +61,19 @@
 <body>
 
     <h1>Privacy Policy for LookTune</h1>
-    <p><strong>Last Updated:</strong> November 3, 2025</p>
+    <p><strong>Last Updated:</strong> December 16, 2024</p>
     <p><strong>Developer:</strong> Rares Busuioc</p>
 
     <hr>
 
     <h2>1. Introduction</h2>
-    <p>Welcome to <strong>LookTune</strong>, an application developed and operated by <strong>Rares Busuioc</strong> (“we,” “our,” or “us”).
+    <p>Welcome to <strong>LookTune</strong>, an application developed and operated by <strong>Rares Busuioc</strong> ("we," "our," or "us").
     LookTune allows users to try out different <strong>hairstyles, beard styles, and makeup styles</strong> using AI-based image processing.
     It also provides an <strong>attractiveness rating</strong> and a **User Leaderboard** designed to help users identify which styles best suit their appearance.</p>
-    
+
     <p>We are committed to protecting your privacy and handling your data responsibly.
     This Privacy Policy explains what information we collect, how we use it, and how you can manage or delete your data.</p>
-    
+
     <p>By using LookTune, you agree to the practices described in this Privacy Policy.</p>
 
     <h2>2. Information We Collect</h2>
@@ -98,7 +102,64 @@
         <li>Images that you **choose to upload to the public Leaderboard** are stored until you manually delete them or delete your account.</li>
     </ul>
 
-    <h3>2.4. Device and Technical Information</h3>
+    <h3>2.4. Facial Data Processing</h3>
+    <p><strong>Important Information About Facial Analysis:</strong></p>
+    <p>When you use LookTune's transformation features (hairstyles, makeup, beard styles, or beauty score), your uploaded photo is analyzed by AI models to identify and process facial features. This facial analysis occurs automatically to enable accurate placement of virtual styles on your face.</p>
+
+    <h4>What Facial Data is Processed:</h4>
+    <ul>
+        <li>The AI models analyze your photo to detect facial features and their positions (such as face shape, facial contours, and feature locations)</li>
+        <li>This analysis is performed solely to apply your requested transformation accurately</li>
+        <li><strong>No biometric identification or facial recognition is performed</strong> — your face is not used to identify you across photos or build facial profiles</li>
+    </ul>
+
+    <h4>How Facial Data is Used:</h4>
+    <ul>
+        <li><strong>Hairstyle Transformations:</strong> AI analyzes face position to place virtual hairstyles correctly</li>
+        <li><strong>Makeup Application:</strong> AI detects facial features to apply virtual makeup appropriately</li>
+        <li><strong>Beard Styling:</strong> AI identifies facial areas to apply virtual beard styles</li>
+        <li><strong>Beauty Score:</strong> AI analyzes facial proportions to generate an attractiveness rating <strong>for entertainment purposes only</strong> (not a medical or health assessment)</li>
+    </ul>
+
+    <h4>Facial Data is NEVER Used For:</h4>
+    <ul>
+        <li>Identifying you or creating biometric profiles</li>
+        <li>Facial recognition across different photos</li>
+        <li>Marketing, advertising, or targeted ads</li>
+        <li>Training AI models or algorithm improvements</li>
+        <li>Any purpose beyond your explicit transformation request</li>
+    </ul>
+
+    <h4>Third-Party Processing:</h4>
+    <p>Your photos are processed by secure third-party AI services to generate transformations. These services:</p>
+    <ul>
+        <li>Process facial data <strong>only</strong> to fulfill your transformation request</li>
+        <li>Do <strong>not</strong> retain your photos or facial data after processing</li>
+        <li>Transmit all data using HTTPS encryption</li>
+        <li>Are <strong>not</strong> permitted to use your facial data for any other purpose</li>
+    </ul>
+
+    <h4>Facial Data Retention:</h4>
+    <ul>
+        <li><strong>During Processing:</strong> Facial analysis occurs temporarily while your transformation is generated (typically 30-60 seconds)</li>
+        <li><strong>After Processing:</strong> Your original photo and any facial analysis data are <strong>automatically deleted immediately</strong> after results are delivered to your device</li>
+        <li><strong>Transformation Results:</strong> Only the final transformed images are stored temporarily (automatically deleted within 2 days)</li>
+        <li><strong>User Control:</strong> You can delete transformation results immediately from the app's History screen</li>
+        <li><strong>No Permanent Storage:</strong> LookTune does not permanently store facial analysis data or biometric information</li>
+    </ul>
+
+    <h4>Your Consent:</h4>
+    <p>By using LookTune's transformation features, you consent to the temporary processing of facial data as described above. You may withdraw consent by discontinuing use of the app's transformation features or deleting your account.</p>
+
+    <h4>Compliance with Biometric Privacy Laws:</h4>
+    <p>LookTune complies with applicable biometric privacy regulations, including:</p>
+    <ul>
+        <li>Illinois Biometric Information Privacy Act (BIPA)</li>
+        <li>Texas Capture or Use of Biometric Identifier Act (CUBI)</li>
+        <li>California Consumer Privacy Act (CCPA)</li>
+    </ul>
+
+    <h3>2.5. Device and Technical Information</h3>
     <ul>
         <li>We collect non-personal technical data such as device type, operating system, and app version, as well as **Device Identifiers** (such as the Advertising ID) through our analytics services (e.g., Firebase Analytics) to ensure proper app performance and fix bugs.</li>
     </ul>
@@ -107,6 +168,7 @@
     <p>LookTune provides an attractiveness score and allows users to opt-in to a public Leaderboard:</p>
     <ul>
         <li>The **Attractiveness Score** is generated by a sophisticated AI model to quantify the attractiveness of your selected style.</li>
+        <li><strong>Important:</strong> The Attractiveness Score is generated for <strong>entertainment and style guidance purposes only</strong>. It is not a medical assessment, health measurement, or indication of self-worth. Results are subjective AI-generated estimates.</li>
         <li>The **Leaderboard** is a public feature where users can voluntarily upload their photos and scores to be viewed and ranked by other users.</li>
         <li>We operate a content moderation system for the Leaderboard to detect and remove inappropriate content.</li>
     </ul>
@@ -120,8 +182,8 @@
     <h3>5.1. Superwall</h3>
     <p>We use <strong>Superwall</strong> to manage in-app purchases and paywalls.
     Superwall may process limited data related to your purchase activity as required for billing and subscription management.
-    You can view Superwall’s Privacy Policy here: <a href="https://superwall.com/privacy">https://superwall.com/privacy</a></p>
-    
+    You can view Superwall's Privacy Policy here: <a href="https://superwall.com/privacy">https://superwall.com/privacy</a></p>
+
     <p>We do <strong>not</strong> share personal images, attractiveness data, or login credentials with Superwall.</p>
 
     <h3>5.2. Firebase Services</h3>
@@ -131,7 +193,7 @@
         <li>**Cloud Storage** (temporary image processing and public leaderboard storage)</li>
         <li>**Analytics** (non-personal crash logs and app usage data)</li>
     </ul>
-    <p>For more information, please see Google’s Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+    <p>For more information, please see Google's Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
 
     <h2>6. How We Use Your Information</h2>
     <p>We use your information to:</p>
@@ -142,7 +204,7 @@
         <li>Send push notifications when your results are ready.</li>
         <li>Maintain app stability and security, and analyze app usage to improve features.</li>
     </ul>
-    
+
     <div class="deletion-section">
         <h2>7. Account Deletion and Data Management</h2>
         <p>You have the right to delete your account and all associated data at any time. We offer two methods for account deletion:</p>
@@ -155,7 +217,7 @@
             <li>Tap **Delete Account**.</li>
             <li>Confirm your choice.</li>
         </ol>
-        
+
         <h3>Method 2: External Request via Email</h3>
         <p>If you cannot access the app, you may request account deletion by emailing us at:</p>
         <p>📧 **<a href="mailto:lookswapapp@gmail.com">lookswapapp@gmail.com</a>**</p>
@@ -179,7 +241,7 @@
     All communications between your device and our servers are encrypted using **HTTPS** (encryption in transit).
     Access to your stored data is strictly limited to secure automated systems.</p>
 
-    <h2>9. Children’s Privacy and Target Audience</h2>
+    <h2>9. Children's Privacy and Target Audience</h2>
     <p>**LookTune is designed for and targets users aged 18 and over.**</p>
     <p>Due to the nature of the app's features (such as the Attractiveness Score and public Leaderboard for photo sharing), this app is **not intended for children**.
     If we become aware that we have collected personal data from a user under the age of 18 without parental consent, we will take steps to delete their account and associated data promptly.</p>
@@ -194,7 +256,7 @@
 
     <h2>11. Changes to This Privacy Policy</h2>
     <p>We may update this Privacy Policy periodically.
-    When updates occur, the “Last Updated” date at the top will be revised and the updated version will be made available in the app and on our website (if applicable).</p>
+    When updates occur, the "Last Updated" date at the top will be revised and the updated version will be made available in the app and on our website (if applicable).</p>
 
     <h2>12. Contact Us</h2>
     <p>If you have any questions, concerns, or data requests related to this Privacy Policy, please contact us at:</p>
